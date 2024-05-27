@@ -6,7 +6,7 @@ import SearchBar from './Components/SearchBar';
 import axios from 'axios';
 import React, {useState} from 'react'
 // import image1 from ""
-const API_KEY = "55ca4bf3871a1b90d5163940de18ae9c";
+const API_KEY = "06a4405e35752ffb3cc57408f25d66eb";
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
