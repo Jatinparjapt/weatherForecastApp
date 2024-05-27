@@ -4,7 +4,7 @@ const CurrentWeatherDisplay = ({data}) => {
   if(!data){
     return (
       <div className="flex justify-center items-center">
-        <p className='text-orange-700' >
+        <p className='text-yellow-700' >
           Please Enter Some Details To Explore The App
         </p>
       </div>

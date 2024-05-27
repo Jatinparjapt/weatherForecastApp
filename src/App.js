@@ -46,7 +46,7 @@ function App() {
 
       setForecast(forecastList);
     } catch (error) {
-      setError("Error fetching weather data. Please try again.");
+      setError("Please enter correct city name.");
     } finally {
       setLoading(false);
     }
