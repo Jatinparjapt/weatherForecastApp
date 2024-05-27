@@ -20,7 +20,7 @@ function App() {
       const weatherResponse = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}&units=metric`
       );
-      console.log(weatherResponse)
+      // console.log(weatherResponse)
       const forecastResponse = await axios.get(
         `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${API_KEY}&units=metric`
       );
@@ -51,7 +51,7 @@ function App() {
       setLoading(false);
     }
   };
-  console.log(currentWeather , "curt")
+  // console.log(currentWeather , "curt")
   return (
     <>
     <div className={"bg-[url('./Images/bg1.jpg')] h-[100vh] w-[100vw] bg-cover "} >
