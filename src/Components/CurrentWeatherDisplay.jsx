@@ -19,7 +19,7 @@ const CurrentWeatherDisplay = ({data}) => {
             City : {data.name}
           </div>
           <div className="date">
-           Weather {data.description}
+           Weather : {data.description}
           </div>
         </div>
         
