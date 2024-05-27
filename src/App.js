@@ -62,7 +62,7 @@ function App() {
       {loading ? (
         <p className='flex justify-center items-center text-green-400 text-lg' >Loading...</p>
       ) : error ? (
-        <p>{error}</p>
+        <p  className='flex justify-center items-center text-red-500 text-lg' >{error}</p>
       ) : (
         <>
           <CurrentWeatherDisplay data={currentWeather} />
