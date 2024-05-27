@@ -60,7 +60,7 @@ function App() {
       </div>
       <SearchBar search={handleSearch} />
       {loading ? (
-        <p>Loading...</p>
+        <p className='flex justify-center items-center text-green-400 text-lg' >Loading...</p>
       ) : error ? (
         <p>{error}</p>
       ) : (

@@ -2,7 +2,13 @@ import React from 'react'
 
 const CurrentWeatherDisplay = ({data}) => {
   if(!data){
-    return null
+    return (
+      <div className="flex justify-center items-center">
+        <p className='text-orange-700' >
+          Please Enter Some Details To Explore The App
+        </p>
+      </div>
+    )
   }
   return (
     <>
