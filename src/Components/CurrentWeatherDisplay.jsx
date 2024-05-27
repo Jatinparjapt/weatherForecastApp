@@ -14,7 +14,7 @@ const CurrentWeatherDisplay = ({data}) => {
     <>
         <div className=" mt-8 mx-auto w-[60%]  flex justify-center items-center ">
       <div className="details w-full mx-auto  ">
-        <div className="day rounded-lg flex w-full place-content-around   ">
+        <div className="day rounded-lg text-lg font-medium flex w-full place-content-around   ">
           <div className='dayDiv'>
             City : {data.name}
           </div>

@@ -6,7 +6,7 @@ const AdditionalDetails = ({getData}) => {
   }
   return (
     <>
-     <div className=" w-[60%] mx-auto my-4 flex space-x-2 place-content-around ">
+     <div className=" w-[60%] mx-auto text-lg font-medium my-4 flex space-x-2 place-content-around ">
             <span>Pressure :{getData.pressure}atm</span>
             <span>Humidity :{getData.humidity}%</span>
             <span>Speed :{getData.windSpeed}(m/s)</span>

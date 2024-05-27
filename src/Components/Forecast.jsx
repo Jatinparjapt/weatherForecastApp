@@ -6,12 +6,12 @@ const Forecast = ({data}) => {
     }
   return (
     <>
-       <div className="forecast  w-[70%] mx-2 md:mx-auto  ">
-        <div className='flex justify-center items-center' >
+       <div className="forecast  w-[70%] mx-2 md:mx-auto text-base font-medium rounded-2xl bg-black text-zinc-400 ">
+        <div className='flex my-2 justify-center items-center' >
         <h1 className='text-3xl ' >ForeCast For Next 5 Days</h1>
-    
+
         </div>
-        <div className="forecastTable flex rounded-2xl  bg-black text-white justify-center  "> 
+        <div className="forecastTable flex   justify-center  "> 
         {data.map((day , index)=>(
         <div key={index} className="details border-blue-200 m-1  ">
            
