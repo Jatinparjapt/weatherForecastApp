@@ -17,8 +17,8 @@ const Forecast = ({data}) => {
            
             <ul key={index} className='space-x-0  ' >
                 <li className='border-blue-300 border-2 rounded-md ' >Date : {day.date}</li>
-                <li className='border-blue-300 border-2 rounded-md ' >Temp : {day.temp}</li>
-                <li className='border-blue-300 border-2 rounded-md ' >Weather : {day.description}</li>
+                <li className='border-blue-300 border-2 rounded-md ' >Temp : {day.temp} <sup>o</sup>  </li>
+                <li className=' ' >Weather : {day.description}</li>
                 <img className=' w-full '
               src={`http://openweathermap.org/img/wn/${day.icon}.png`}
               alt="weather icon"
