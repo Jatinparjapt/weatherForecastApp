@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Weather Wise App Description
+The Weather Wise App is a user-friendly weather application designed to provide comprehensive weather information in a clean and organized format. The app features four main components, each serving a specific purpose to enhance the user experience:
+[weather-wise-app](https://weather-forecast-app-jade.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## SearchBar:
 
-## Available Scripts
+The SearchBar component allows users to input the name of a city they want to search for. With a simple and intuitive interface, users can quickly find the weather information for any location worldwide by entering the city name and initiating the search.
 
-In the project directory, you can run:
+## Current Weather Details:
 
-### `npm start`
+The Current Weather Details component displays the most up-to-date weather information for the searched city. It includes key data points such as the current temperature, weather description, humidity, wind speed, and atmospheric pressure. An icon representing the current weather condition is also shown to provide a visual representation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Additional Details:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Additional Details component offers more in-depth weather information, complementing the current weather data. This section includes extra details like the exact location name, humidity percentage, wind speed in meters per second, and atmospheric pressure in hPa, giving users a comprehensive understanding of the current weather conditions.
 
-### `npm test`
+## Forecast for the Next 5 Days:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Forecast component provides a 5-day weather forecast, broken down into daily intervals. Users can see the expected weather conditions, including temperature and weather descriptions, for each of the upcoming days. This feature helps users plan their activities ahead by offering a reliable forecast based on data sourced from OpenWeatherMap.
 
-### `npm run build`
+# How to Use the Weather Wise App
+[weather-wise-app](https://weather-forecast-app-jade.vercel.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Search for a City:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open the Weather Wise App.
+Enter the name of the city you want to get weather information for in the SearchBar.
+Press the search button to fetch the weather data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## View Current Weather:
 
-### `npm run eject`
+After initiating a search, the Current Weather Details component will display the latest weather information for the specified city, including temperature, weather description, humidity, wind speed, and pressure.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Check Additional Details:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For more detailed weather information, refer to the Additional Details component. This section provides supplementary data that can help you better understand the current weather conditions.
+Plan with the 5-Day Forecast:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Use the Forecast component to see the weather predictions for the next five days. Each day's forecast includes temperature and weather descriptions, allowing you to plan your activities accordingly.
+The Weather Wise App leverages the OpenWeatherMap API to deliver accurate and up-to-date weather information, ensuring users have access to reliable data whenever they need it.
